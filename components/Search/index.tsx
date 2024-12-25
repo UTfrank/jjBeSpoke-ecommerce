@@ -4,7 +4,7 @@ import React from 'react'
 const Search = () => {
   return (
     <form className='flex gap-x-2 border px-4 py-[10px] rounded-full'>
-      <input type="text" className='focus:outline-none' placeholder="Search" />
+      <input type="text" className='focus:outline-none bg-transparent text-black' placeholder="Search" />
       <button type="submit">
         <SearchNormal1 size="16" color="#323232"/>
       </button>

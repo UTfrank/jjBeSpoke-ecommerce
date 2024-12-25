@@ -8,7 +8,7 @@ import Search from "@/components/Search";
 
 const Navbar = () => {
   return (
-    <div className="w-full flex justify-content-center items-center border py-8 bg-white backdrop-filter backdrop-blur-md sticky top-0 bg-opacity-40">
+    <nav className="w-full flex justify-content-center items-center border py-8 bg-white backdrop-filter backdrop-blur-md sticky z-[99999] top-0 bg-opacity-40">
       <div className="container justify-between items-center">
         <Link href="/">
           <Image src="/JnJ.svg" alt="Vercel Logo" width={40} height={14} />
@@ -38,7 +38,7 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
